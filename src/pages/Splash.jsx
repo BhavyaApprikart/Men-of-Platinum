@@ -9,11 +9,15 @@ import logo from './images/logo.svg';
 
 
 function Splash() {
+
   const navigate = useNavigate();
+
   const [animationStart, setAnimationStart] = useState(false);
-  useEffect(() => {
+
+ useEffect(() => {
+    let timer = setTimeout(() => setAnimationStart(true), 500);
     return () => {
-      setAnimationStart(true);
+      clearTimeout(timer);
     };
   }, []);
 

@@ -3,11 +3,14 @@ import blurdhoni from './images/blur-dhoni.png';
 
 function Splash2() {
   const [animationStart, setAnimationStart] = useState(false);
+
   useEffect(() => {
+    let timer = setTimeout(() => setAnimationStart(true), 500);
     return () => {
-      setAnimationStart(true);
+      clearTimeout(timer);
     };
   }, []);
+  
   return (
     <div className="w-full h-screen flex items-center justify-center md:rounded-xl overflow-hidden bg-black">
       <div
