@@ -1,0 +1,46 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'avenir';
+  src: url('./assets/fonts/Avenir_LT_Std_65_Medium.otf') format('opentype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenir-light';
+  src: url('./assets/fonts/Avenir_LT_Std_35_Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'YourFontName';
+  src: url('../assets/fonts/YourFontName-Bold.woff2') format('woff2'),
+    url('../assets/fonts/YourFontName-Bold.woff') format('woff'),
+    url('../assets/fonts/YourFontName-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} */
+
+
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+html, body {
+    /* background-color:#202020; */
+    color:#202020;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent scrollbar from appearing */
+}
+
+* {
+  box-sizing: border-box;
+}
