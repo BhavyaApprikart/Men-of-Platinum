@@ -23,8 +23,9 @@ function Register() {
 
 
   useEffect(() => {
+    let timer = setTimeout(() => setAnimationStart(true), 500);
     return () => {
-      setAnimationStart(true);
+      clearTimeout(timer);
     };
   }, []);
 
