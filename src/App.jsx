@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Splash />} />
+        <Route  exact path="/" element={<Layout />}>
+          <Route path="/"  element={<Splash />} />
           <Route path="/Splash2" element={<Splash2 />} />
           <Route path="/message" element={<Message />} />
           <Route path="/register" element={<Register />} />
