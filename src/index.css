@@ -28,19 +28,14 @@
 } */
 
 
-body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
-
-html, body {
-    /* background-color:#202020; */
-    color:#202020;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* Prevent scrollbar from appearing */
-}
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+ body {
+      /* background-color:#202020; */
+      color:#202020;   
+  }
+

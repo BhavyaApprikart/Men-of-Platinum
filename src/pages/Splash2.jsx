@@ -1,5 +1,7 @@
 import  { useEffect, useState } from "react";
 import blurdhoni from './images/blur-dhoni.png';
+import logo from './images/logo.svg';
+
 
 function Splash2() {
   const [animationStart, setAnimationStart] = useState(false);
@@ -31,8 +33,8 @@ function Splash2() {
                 ? " delay-300 duration-500 ease-in-out"
                 : "opacity-45 -translate-y-80"
             }`}
-            src="./images/logo.svg"
-            alt=""
+            src={logo}
+            alt="Logo"
           />
           <div
             className={`${

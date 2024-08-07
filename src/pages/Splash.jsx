@@ -42,7 +42,7 @@ function Splash() {
         src={vector}
         alt="Vector"
       />
-      <div className="  absolute bottom-0 flex flex-col justify-center items-center w-full px-6">
+      <div className="absolute bottom-0 flex flex-col justify-center items-center w-full px-6">
         <img
           className={`w-32 object-contain  ${
             animationStart
@@ -56,8 +56,8 @@ function Splash() {
         <p
           className={`text-lg  mt-8 text-center font-avenir font-semibold tracking-wide  ${
             animationStart
-              ? "  delay-1000 duration-700 ease-out"
-              : " opacity-0 -translate-y-3"
+              ? "delay-1000 duration-700 ease-out"
+              : "opacity-0 -translate-y-3"
           }`}
         >
           Thank you for purchasing the MS Dhoni Signature Edition.
