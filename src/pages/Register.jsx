@@ -54,9 +54,9 @@ function Register() {
    const handleOtpVerification = async () => {
 
      const checkbox = document.getElementById('accepted');
-     const nameInput = document.getElementById('accepted');
-     const emailInput = document.getElementById('accepted');
-     const mobileInput = document.getElementById('accepted');
+     const nameInput = document.getElementById('nameinput');
+     const emailInput = document.getElementById('emailinput');
+     const mobileInput = document.getElementById('mobileinput');
      const nameVal = nameInput.value;
      const emailVal = emailInput.value;
      const mobVal  = mobileInput.value
@@ -222,6 +222,7 @@ function Register() {
           >
             <img src={personicon} alt="Person Icon" />
             <input
+              id="nameinput"
               className="placeholder:text-white gap-2 bg-transparent text-sm outline-none flex-1"
               type="text"
               placeholder="Name"
@@ -249,6 +250,7 @@ function Register() {
           >
             <img src={emailicon} alt="Email Icon" />
             <input
+              id="emailinput"
               className="placeholder:text-white gap-2 bg-transparent text-sm outline-none flex-1"
               type="text"
               placeholder="E-mail ID"
@@ -275,6 +277,7 @@ function Register() {
           >
             <img src={mobileicon} alt=" Mobile Icon" />
             <input
+              id="mobileinput"
               className="placeholder:text-white gap-2 bg-transparent text-sm outline-none flex-1"
               type="text"
               placeholder="Mobile number"
