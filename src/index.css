@@ -39,3 +39,36 @@
       color:#202020;   
   }
 
+
+  .gradient-input {
+          box-shadow: 0px 2px 6px 0px #DBDBDB26;
+          border: 1px solid;
+          border-image-source: linear-gradient(0deg, #E5E4E2, #E5E4E2),
+            linear-gradient(91.41deg, #949494 0%, #F0F0F0 11.6%, #868686 25.6%, #E7E7E7 37.1%, #E8E8E8 50.1%, #6B6B6B 61.6%, #EAEAEA 73.6%, #6C6C6C 87.6%, #E5E4E2 100%);
+  }
+
+
+    /* #myInput:focus {
+      background: #EAEAEA;
+      box-shadow: 0px 2px 6px 0px #DBDBDB26;
+    } */
+  
+/*   
+    #myInput:not(:placeholder-shown) {
+      background: #EAEAEA;
+      box-shadow: 0px 2px 6px 0px #DBDBDB26;
+    } */
+
+
+.filledInput {
+  background: #EAEAEA;
+  box-shadow: 0px 2px 6px 0px #DBDBDB26;
+}
+
+
+.otp {
+  border: 1px solid;
+  border-image-source: linear-gradient(0deg, #E5E4E2, #E5E4E2),
+  linear-gradient(91.41deg, rgba(148, 148, 148, 0.8) 0%, #F0F0F0 11.6%, rgba(134, 134, 134, 0.5) 25.6%, #E7E7E7 37.1%, #E8E8E8 50.1%, rgba(134, 134, 134, 0.4) 61.6%, #EAEAEA 73.6%, rgba(108, 108, 108, 0.7) 87.6%, #E5E4E2 100%);
+  box-shadow: 0px 2px 6px 0px #DBDBDB26;
+}
